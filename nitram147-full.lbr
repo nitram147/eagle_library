@@ -1009,10 +1009,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="-13.97" y1="8.3" x2="-13.97" y2="-8.89" width="0.127" layer="21"/>
 <pad name="IN+" x="-11.945" y="6.48" drill="1" diameter="1.9304" shape="square" rot="R180"/>
 <pad name="IN-" x="-11.945" y="-7.07" drill="1" diameter="1.9304" shape="square" rot="R180"/>
-<pad name="OUT+" x="10.255" y="6.48" drill="1" diameter="1.9304" shape="square"/>
-<pad name="B+" x="10.255" y="3.28" drill="1" diameter="1.9304" shape="square"/>
-<pad name="B-" x="10.255" y="-3.87" drill="1" diameter="1.9304" shape="square"/>
-<pad name="OUT-" x="10.255" y="-7.07" drill="1" diameter="1.9304" shape="square" rot="R180"/>
+<pad name="OUT+" x="10.855" y="6.48" drill="1" diameter="1.9304" shape="square"/>
+<pad name="B+" x="10.855" y="3.28" drill="1" diameter="1.9304" shape="square"/>
+<pad name="B-" x="10.855" y="-3.87" drill="1" diameter="1.9304" shape="square"/>
+<pad name="OUT-" x="10.855" y="-7.07" drill="1" diameter="1.9304" shape="square" rot="R180"/>
 <wire x1="-14.57" y1="-4.005" x2="-9.03" y2="-4.005" width="0.127" layer="21"/>
 <wire x1="-9.03" y1="-4.005" x2="-9.03" y2="3.415" width="0.127" layer="21"/>
 <wire x1="-9.03" y1="3.415" x2="-14.57" y2="3.415" width="0.127" layer="21"/>
