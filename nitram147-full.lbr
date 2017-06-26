@@ -1381,6 +1381,43 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <text x="-2.54" y="-8.89" size="1.27" layer="21">x</text>
 <text x="6.35" y="-5.08" size="1.27" layer="21">y</text>
 </package>
+<package name="BATTERY_HOLDER_18650_BLOSSOM">
+<wire x1="-39.37" y1="-10.16" x2="38.33" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-39.37" y1="10.54" x2="38.33" y2="10.54" width="0.127" layer="21"/>
+<wire x1="38.33" y1="-10.16" x2="38.33" y2="-8.36" width="0.127" layer="21"/>
+<wire x1="38.33" y1="-8.36" x2="37.83" y2="-8.36" width="0.127" layer="21"/>
+<wire x1="37.83" y1="-8.36" x2="37.83" y2="-4.36" width="0.127" layer="21"/>
+<wire x1="37.83" y1="-4.36" x2="38.33" y2="-4.36" width="0.127" layer="21"/>
+<wire x1="38.33" y1="-4.36" x2="38.33" y2="-1.06" width="0.127" layer="21"/>
+<wire x1="38.33" y1="-1.06" x2="34.98" y2="-1.06" width="0.127" layer="51"/>
+<wire x1="34.98" y1="-1.06" x2="34.98" y2="1.44" width="0.127" layer="51"/>
+<wire x1="34.98" y1="1.44" x2="38.33" y2="1.44" width="0.127" layer="51"/>
+<wire x1="38.33" y1="1.44" x2="38.33" y2="4.74" width="0.127" layer="21"/>
+<wire x1="38.33" y1="4.74" x2="37.83" y2="4.74" width="0.127" layer="21"/>
+<wire x1="37.83" y1="4.74" x2="37.83" y2="8.74" width="0.127" layer="21"/>
+<wire x1="37.83" y1="8.74" x2="38.33" y2="8.74" width="0.127" layer="21"/>
+<wire x1="38.33" y1="8.74" x2="38.33" y2="10.54" width="0.127" layer="21"/>
+<wire x1="-39.37" y1="-10.16" x2="-39.37" y2="-8.36" width="0.127" layer="21"/>
+<wire x1="-39.37" y1="-8.36" x2="-38.87" y2="-8.36" width="0.127" layer="21"/>
+<wire x1="-38.87" y1="-8.36" x2="-38.87" y2="-4.36" width="0.127" layer="21"/>
+<wire x1="-38.87" y1="-4.36" x2="-39.37" y2="-4.36" width="0.127" layer="21"/>
+<wire x1="-39.37" y1="-4.36" x2="-39.37" y2="-1.06" width="0.127" layer="21"/>
+<wire x1="-39.37" y1="-1.06" x2="-36.02" y2="-1.06" width="0.127" layer="51"/>
+<wire x1="-36.02" y1="-1.06" x2="-36.02" y2="1.44" width="0.127" layer="51"/>
+<wire x1="-36.02" y1="1.44" x2="-39.37" y2="1.44" width="0.127" layer="51"/>
+<wire x1="-39.37" y1="1.44" x2="-39.37" y2="4.74" width="0.127" layer="21"/>
+<wire x1="-39.37" y1="4.74" x2="-38.87" y2="4.74" width="0.127" layer="21"/>
+<wire x1="-38.87" y1="4.74" x2="-38.87" y2="8.74" width="0.127" layer="21"/>
+<wire x1="-38.87" y1="8.74" x2="-39.37" y2="8.74" width="0.127" layer="21"/>
+<wire x1="-39.37" y1="8.74" x2="-39.37" y2="10.54" width="0.127" layer="21"/>
+<hole x="-28.02" y="0.19" drill="3"/>
+<hole x="26.98" y="0.19" drill="3"/>
+<text x="-7.62" y="-1.905" size="3.81" layer="21">18650</text>
+<text x="-22.86" y="-1.27" size="3.81" layer="21">+</text>
+<text x="20.32" y="-1.27" size="3.81" layer="21">-</text>
+<pad name="PLUS" x="-36.02" y="0.19" drill="1.6" diameter="3.81"/>
+<pad name="MINUS" x="34.98" y="0.19" drill="1.6" diameter="3.81"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATMEGA325P">
@@ -1852,6 +1889,23 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BATTERY_HOLDER_18650_BLOSSOM">
+<pin name="P" x="-27.94" y="0" length="middle"/>
+<pin name="M" x="27.94" y="0" length="middle" rot="R180"/>
+<text x="-7.62" y="-2.032" size="3.81" layer="94">18650</text>
+<text x="-20.32" y="-1.27" size="3.81" layer="94">+</text>
+<text x="17.78" y="-1.524" size="3.81" layer="94">-</text>
+<wire x1="-22.86" y1="-5.08" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="22.86" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="22.86" y2="5.08" width="0.254" layer="94"/>
+<wire x1="22.86" y1="5.08" x2="15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="-15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="5.08" x2="-22.86" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="5.08" x2="-22.86" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2407,6 +2461,22 @@ Source: http://www.atmel.com .. doc8023.pdf</description>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BATTERY_HOLDER_18650_BLOSSOM">
+<gates>
+<gate name="G$1" symbol="BATTERY_HOLDER_18650_BLOSSOM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BATTERY_HOLDER_18650_BLOSSOM">
+<connects>
+<connect gate="G$1" pin="M" pad="MINUS"/>
+<connect gate="G$1" pin="P" pad="PLUS"/>
 </connects>
 <technologies>
 <technology name=""/>
