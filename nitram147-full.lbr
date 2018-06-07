@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36,9 +36,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -1461,7 +1461,6 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="3.16" y1="-1.27" x2="3.16" y2="1.73" width="0.127" layer="21"/>
 <wire x1="3.16" y1="1.73" x2="-2.54" y2="1.73" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="1.73" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
-<rectangle x1="-1.015" y1="-0.62" x2="1.235" y2="1.08" layer="1"/>
 <smd name="A" x="-2.09" y="0.23" dx="1.778" dy="0.9144" layer="1" rot="R90"/>
 <smd name="C" x="2.71" y="0.23" dx="1.778" dy="0.9144" layer="1" rot="R90"/>
 <wire x1="-1.905" y1="1.08" x2="-1.905" y2="-0.62" width="0.127" layer="51"/>
@@ -1470,6 +1469,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="1.27" y1="1.08" x2="-1.905" y2="1.08" width="0.127" layer="51"/>
 <wire x1="1.905" y1="1.08" x2="1.905" y2="-0.62" width="0.127" layer="51"/>
 <text x="-2.54" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
+<smd name="HEAT_SINK" x="0.1" y="0.23" dx="2.25" dy="1.7" layer="1"/>
 </package>
 </packages>
 <symbols>
