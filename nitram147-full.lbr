@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1986,8 +1986,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <text x="-4.572" y="-7.112" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="LED">
-<pin name="A" x="-5.08" y="0" visible="off" length="middle" direction="in"/>
-<pin name="C" x="7.62" y="0" visible="off" length="middle" direction="out" rot="R180"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="C" x="7.62" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
 <wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
