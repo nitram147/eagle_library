@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.635" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1539,10 +1539,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="15.325" y1="-10.16" x2="15.325" y2="-8.56" width="0.127" layer="21"/>
 <wire x1="15.325" y1="-8.56" x2="9.12" y2="-8.56" width="0.127" layer="21"/>
 <wire x1="-16.51" y1="-8.56" x2="-16.51" y2="-10.16" width="0.127" layer="21"/>
-<pad name="AOUT" x="-4.445" y="-4.86" drill="0.8" diameter="1.4224"/>
-<pad name="GND" x="-1.905" y="-4.86" drill="0.8" diameter="1.4224"/>
-<pad name="DOUT" x="0.635" y="-4.86" drill="0.8" diameter="1.4224"/>
-<pad name="VCC" x="3.175" y="-4.86" drill="0.8" diameter="1.4224"/>
+<pad name="AOUT" x="-4.445" y="-4.86" drill="0.8" diameter="1.778"/>
+<pad name="GND" x="-1.905" y="-4.86" drill="0.8" diameter="1.778"/>
+<pad name="DOUT" x="0.635" y="-4.86" drill="0.8" diameter="1.778"/>
+<pad name="VCC" x="3.175" y="-4.86" drill="0.8" diameter="1.778"/>
 <wire x1="-16.51" y1="-8.56" x2="-10.3" y2="-8.56" width="0.127" layer="21"/>
 <wire x1="-10.3" y1="-8.56" x2="9.12" y2="-8.56" width="0.127" layer="21"/>
 <wire x1="9.12" y1="-8.56" x2="9.12" y2="11.59" width="0.127" layer="21"/>
